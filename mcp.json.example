@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "apwa": {
+      "command": "python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/apwa-mcp/src/server.py"
+      ]
+    }
+  }
+}

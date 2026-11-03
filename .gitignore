@@ -1,0 +1,12 @@
+# 运行时状态与交付物，不进版本库
+runtime/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地环境
+.env
+.DS_Store

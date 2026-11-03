@@ -1,0 +1,5 @@
+# MCP 服务端依赖。版本必须锁死：
+# mcp 2.x 重写了 Server API（移除 list_tools / call_tool 装饰器），本项目按 1.x 编写。
+# pydantic 2.10+ 移除了 mcp 1.9 依赖的内部符号 eval_type_backport。
+mcp==1.9.0
+pydantic==2.9.2
